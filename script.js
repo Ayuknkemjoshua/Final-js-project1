@@ -42,7 +42,7 @@ else if(data.weather[0].main == "Rain"){
 document.querySelector(".weather").style.display= "block";
 document.querySelector(".error").style.display = "none";
 }
-}
+};
 searchBtn.addEventListener("click", ()=> {
 checkWeather(searchInput.value);
 if(searchInput.value);
